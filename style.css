@@ -174,8 +174,9 @@ footer {
     font-size: 20px;
   }
 }
-.logo {
-  width: 120px;
+..logo {
+  width: 140px;
   max-width: 80%;
-  margin-bottom: 15px;
+  margin: 0 auto 15px;
+  display: block;
 }
