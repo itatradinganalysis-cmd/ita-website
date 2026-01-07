@@ -1,1 +1,176 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
 
+/* ===== BODY ===== */
+body {
+  background: #0e0e11;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px;
+  background: #111318;
+  border-bottom: 1px solid #1f2330;
+}
+
+.navbar a {
+  color: #00e0ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #00e0ff;
+  letter-spacing: 3px;
+}
+
+.hero h2 {
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+.hero p {
+  margin: 15px 0 30px;
+  color: #cfd8dc;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+  display: inline-block;
+  padding: 14px 30px;
+  background: #00e0ff;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00bcd4;
+  transform: scale(1.05);
+}
+
+/* ===== SECTION ===== */
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #00e0ff;
+  font-size: 26px;
+}
+
+/* ===== LIST ===== */
+.section ul {
+  list-style: none;
+}
+
+.section ul li {
+  background: #161a24;
+  margin: 10px 0;
+  padding: 15px 20px;
+  border-left: 4px solid #00e0ff;
+  border-radius: 5px;
+}
+
+/* ===== FORM ===== */
+form {
+  background: #161a24;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+form input,
+form select {
+  background: #0e0e11;
+  color: #fff;
+  border: 1px solid #2a2f45;
+}
+
+form button {
+  background: #00e0ff;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #00bcd4;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111318;
+  border-top: 1px solid #1f2330;
+  font-size: 14px;
+}
+
+/* ===== WHATSAPP FLOAT ===== */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: #fff;
+  padding: 14px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  z-index: 999;
+}
+
+.whatsapp-float:hover {
+  background: #1ebe5d;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+}
